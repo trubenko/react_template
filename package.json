@@ -2,7 +2,9 @@
   "name": "react-template",
   "version": "0.0.1",
   "private": true,
-  "scripts": { "start": "webpack-dev-server" },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",

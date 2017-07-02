@@ -33,7 +33,9 @@ module.exports = {
     devServer: {
         contentBase: './public',
         inline: true,
-        historyApiFallback: true,
-        hot: true
+        historyApiFallback: true
+    },
+    watchOptions: {
+        poll: true
     }
 }
